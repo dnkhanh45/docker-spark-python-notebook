@@ -4,7 +4,7 @@ services:
   spark-master:
     image: khanhdn4500/spark-master-python-notebook:0.0.1
     # build: 
-    #   context: ./master-python-notebook
+    #   context: ./spark-master
     #   dockerfile: Dockerfile
     container_name: spark-master
     ports:
