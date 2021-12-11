@@ -23,6 +23,3 @@ RUN apk add build-base \
       && cd /
 
 # COPY ./log4j.properties ${SPARK_HOME}/conf
-
-# jupyter notebook --ip 0.0.0.0 --no-browser --allow-root --NotebookApp.allow_origin='https://colab.research.google.com' --port=8888 --NotebookApp.port_retries=0
-
